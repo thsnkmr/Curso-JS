@@ -1,0 +1,24 @@
+// criando a variavel para idade de humano
+const myAge = 20;
+
+// criando uma variavel para mostrar uma faixa de idade que tem taxa diferente do restante
+let earlyYears = 2;
+earlyYears *= 10.5;
+
+// referindo a taxa diferenciada para os anos iniciais da idade total humana
+let laterYears = myAge - 2;
+
+// calculando a taxa para o restante da idade
+laterYears *= 4;
+
+// testando se as duas parcelas que compoem a idade de cachorro estao funcionando
+console.log(`Teste ${earlyYears} e ${laterYears}.`);
+
+// somando as parcelas para obter a conversao
+let myAgeInDogYears = earlyYears + laterYears;
+
+// recebendo o nome da pessoa
+const myName = 'Thaís Nakamura'.toLowerCase();
+
+// printando a mensagem final
+console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`)
