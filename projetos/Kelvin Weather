@@ -1,0 +1,21 @@
+// declarando a variavel que recebe o valor em Kelvin
+const kelvin = 303;
+
+// convertendo o valor de Kelvin para Celsius
+var celsius;
+celsius = kelvin - 273;
+
+// convertendo o valor de Celsius para Fahrenheit
+let fahrenheit;
+fahrenheit = (1.8 * celsius) + 32;
+fahrenheit = Math.floor(fahrenheit);
+
+// convertendo o valor de Celsius para Newton
+let newton;
+newton = 0.33 * celsius;
+newton = Math.floor(newton);
+
+// mostrando o resultado
+console.log(`The temperature is ${celsius} degrees Celsius`);
+console.log(`The temperature is ${newton} dergees Newton`);
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit`);
