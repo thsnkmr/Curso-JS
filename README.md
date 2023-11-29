@@ -1,2 +1,2 @@
 # Curso JS
- Repositório para os projetos do curso de JS Codecademy.
+Projetos do curso de JS Codecademy.
